@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html body{
+    height: 100%;
+    width: 100%;
+    background-color: #f1f2f4;
+
+}
+.navbar{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: white;
+    margin-top: -16px;
+
+}
+.navlogo{
+    height: 65px;
+
+}
+.logo{
+    height: 40px;
+    width: 123px;
+    margin-left: 13px;
+}
+.logo img{
+    height: 60px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.navlogo h4{
+    height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+.navlogo h4{
+    color: #9e9e9e;
+}
+.navlogo h4 span{
+    color: #ffc200;
+}
+.search{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    background-color: #f0f5ff;
+    
+}
+.searchbtn{
+    height: 40px;
+    width: 44px;
+    border: none;
+    background-color:transparent;
+    font-size: 24px;
+}
+.searchbox{
+    width: 540px;
+    height: 40px;
+    font-size: 17px;
+    background-color: transparent;
+    border: none;
+}
+.seller{
+
+    height: 100%;
+    align-items: center;
+    display: flex;
+
+}
+.icon{
+    font-size: 17px;
+
+}
+.sign{
+    width: 105px;
+}
+.sign select{
+    border: none;
+    font-size: 17px;
+}
+.cart{
+    width: 60px;
+    font-size: 17px;
+}
+.section{
+    height: 126px;
+    background-color: white;
+    margin: 10px 10px;
+}
+
+
+
+
